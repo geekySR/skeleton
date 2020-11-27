@@ -43,21 +43,36 @@ thread_t* threads_pop_front() {
 }
 
 int protothread1() {
-	int ch;
-	switch(ch){
+	int  p1_thread_id;
+	switch(p1_thread_id){
 
-case 0: printf("prothothread 1 is executing in step 1");
+case 0: printf("prothothread 1 is executing in step 1 \n");
+//print step ID here
 
-case 1:
-	}
-	
+case 1: printf("Protothread 1 is executing in step 2 \n");
+//print step ID here
 
-	printf("protothread1!\n");
+case 2: printf("Protothread 1 is executing in step 3 \n");
+//print step ID here
+
+case 3: printf("Protothread 1 is executing in step  4 \n");
+//print step ID here
+}
 	return DONE;
 }
 
 int protothread2() {
-	printf("protothread2!\n");
+	int p2_thread_id;
+
+	switch(p2_thread_id){
+
+		case 0: printf("Protothread 2 is executing in step 1");
+		//print thread id here (See homework pdf instructions for reference)
+
+		case 1: printf("Protothread 2 is executing in step 2");
+		//print thread id here
+	}
+
 	return DONE;
 }
 
