@@ -47,7 +47,7 @@ int protothread1() {
 	switch(p1_thread_id){
 
 case 0: printf("prothothread 1 is executing in step 1 \n");
-//print step ID here
+//print step ID here (Foolow the homework PDF)
 
 case 1: printf("Protothread 1 is executing in step 2 \n");
 //print step ID here

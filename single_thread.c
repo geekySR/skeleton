@@ -33,6 +33,7 @@ int protothread() {
 
 	}
 	// printf("protothread!\n");
+	//follow the pdf tutorial
 	return DONE;
 }
 
